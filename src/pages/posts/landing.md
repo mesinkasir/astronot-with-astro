@@ -5,7 +5,7 @@ title: Landing Page
 publishDate: 27 May 2022
 value: 128
 cover: https://astronot.axcora.com/img/LAYOUT.jpg
-description: Just a Hello World Post!
+description: A starter landing page free download source code astro
 
 ---
 
