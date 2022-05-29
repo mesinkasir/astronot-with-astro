@@ -1,0 +1,16 @@
+---
+export interface Props {
+	post: any;
+}
+
+const { post } = Astro.props;
+---
+<article class="post-preview card">
+				<img src={post.frontmatter.cover}/>
+				<div class="card-content">
+		<h1 class="asteroid"><a href={post.url}>{post.frontmatter.title}</a></h1>
+	<p class="meteor">{post.frontmatter.description}</p>
+	<p><a href={post.url} class="button">Read more</a></p>
+	</div>
+</article>
+

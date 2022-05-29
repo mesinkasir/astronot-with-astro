@@ -1,0 +1,21 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Nav from '../components/widget/Nav.astro';
+import Foot from '../components/widget/Foot.astro';
+import BlogPost from '../components/BlogPost.astro';
+
+const { content } = Astro.props;
+const { title, description, publishDate,cover , permalink } = content;
+---
+<html lang={content.lang || 'en'}>
+	<head>
+		<BaseHead {title} {description} {permalink} />
+	</head>
+	<body>
+		<Nav />
+		<div class="wrapper">
+			<BlogPost {title} {cover} {description} {publishDate}>
+				<slot />
+			</BlogPost>
+		</div>
+		<Foot />
