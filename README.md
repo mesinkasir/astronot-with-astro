@@ -1,4 +1,4 @@
-# astronot-withastro-astro
+# astronot-with-astro
 
 Starter template blog build with astronot css and astro build.
 
