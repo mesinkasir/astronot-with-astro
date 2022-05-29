@@ -15,4 +15,4 @@ Test drive demo https://astroman.vercel.app/
 
 Documentation : https://www.hockeycomputindo.com/2022/03/astro-website-template-free-download.html
 
-<p><a href="https://github.com/mesinkasir/astroboy"><button class="btn-meteor link"> Github</button></a></p>
+<p><a href="https://github.com/mesinkasir/astro-website-template-themes-source-code-download"><button class="btn-meteor link"> Github</button></a></p>
